@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class LeapYearOrNot : MonoBehaviour
 {
-    public static bool IsLeapYear(int year)
+   public int i = 0;
+
+    private void Start()
     {
-        int i = i;
-        if (i % 4 == 0 && i % 400 == 0)
+        i = Random.Range(1, 10000);
+        if (i % 4 == 0)
         {
-            Debug.Log("この年はうるう年です");
+            Debug.Log(i+"うるう年である");
+            if (i % 100 == 0)
+            {
+                Debug.Log(i+"うるう年でない");
+            }
         }
         else
         {
-            Debug.Log("この年はうるう年ではありません");
+            Debug.Log(i + "うるう年ではない");
         }
+        if (i % 4 == 0 && i % 100 == 0 && i % 400 == 0)
+        {
+            Debug.Log(i+"うるう年である");
+        }
+       
     }
 }

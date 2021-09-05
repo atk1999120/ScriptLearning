@@ -134,6 +134,9 @@ GameObject:
   - component: {fileID: 1720296795}
   - component: {fileID: 1720296794}
   - component: {fileID: 1720296793}
+  - component: {fileID: 1720296796}
+  - component: {fileID: 1720296797}
+  - component: {fileID: 1720296798}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -206,3 +209,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720296796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720296792}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a8bb93213d8b43993b27b8926fa76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 2015
+--- !u!114 &1720296797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720296792}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff743f644e63c5546afae163f06d7c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  year: 0
+--- !u!114 &1720296798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720296792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8267d7f0fc8f6540ad6e328337d4dd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sec: 67777
